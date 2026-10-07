@@ -68,6 +68,7 @@
 
 // End
 
+// Chap 3
 
 // Q1
 // var age = 16;
@@ -318,13 +319,207 @@
 
 // Q6
 
+// var sbj1 = prompt("Enter first subject");
+// var sbj2 = prompt("Enter second subject");
+// var sbj3 = prompt("Enter third subject");
 
+// var total = 100;
 
+// var obtMarks1 = prompt("Obtained marks of" + " " + sbj1);
+// var obtMarks2 = prompt("Obtained marks of" + " " + sbj2);
+// var obtMarks3 = prompt("Obtained marks of" + " " + sbj1);
 
+// var obtMarks1Cal = total - obtMarks1;
+// var obtMarks2Cal = total - obtMarks2;
+// var obtMarks3Cal = total - obtMarks3;
 
+// var percent1 = (obtMarks1 * 100)/ total;
+// var percent2 = (obtMarks1 * 100)/ total;
+// var percent3 = (obtMarks2 * 100)/ total;
 
+// document.write(("Subject:" + sbj1) + " " + ("Total Marks:" + total) + " " + ("Obtained Marks:" + obtMarks1Cal) + " " + ("Percent:" + percent1) + "<br>");
+// document.write(("Subject:" + sbj2) + " " + ("Total Marks:" + total) + " " + ("Obtained Marks:" + obtMarks2Cal) + " " + ("Percent:" + percent2) + "<br>");
+// document.write(("Subject:" + sbj3) + " " + ("Total Marks:" + total) + " " + ("Obtained Marks:" + obtMarks3Cal) + " " + ("Percent:" + percent3) + "<br>");
 
+// End
 
+// Chap 9-11
+
+// Q1
+// var user = prompt("Enter a city name");
+// var lower = user.toLowerCase();
+// var city = "karachi";
+
+// if(lower == city){
+//     alert("Welcome");
+// }
+
+// Q2
+// var user = prompt("What's your gender");
+
+// if(user === "male"){
+//     alert("Good morning Sir");
+// }else if(user === "female"){
+//     alert("Good morning Maam");
+// }else{
+//     alert("Gender not defined");
+// }
+
+// Q3
+// var user = prompt("Enter traffic signal color");
+// if(user === "red"){
+//     alert("Must Stop");
+// }else if(user === "yellow"){
+//     alert("Ready to move");
+// }else if(user === "green"){
+//     alert("Move now");
+// }else{
+//     alert("Signal not defined");
+// }
+
+// Q4
+// var user = prompt("Enter your remaining fuel");
+// var fuel = 0.25;
+
+// if(user <= fuel){
+//     alert("Please refill the fuel in the car");
+// }
+
+// Q5
+// a:
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+// b
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+// c
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+// d
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+// e
+//  if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+
+// f
+// if("car" < "cat"){
+// alert("car is smaller than cat");
+// }
+
+// Q6
+// var totalMarks = prompt("Enter your total marks");
+// var obtMarks = prompt("Enter your obtained marks");
+// var percent = (obtMarks * 100)/ totalMarks;
+// var grade ;
+// var remarks ;
+// if(percent >= 80){
+//     grade = "A+";
+//     remarks = "Exellent";
+// }else if(percent >=70){
+//     grade = "A";
+//     remarks = "Good";
+// }else if(percent >= 60){
+//     grade = "B";
+//     remarks = "You need to improve";
+// }else{
+//     grade = "Fail";
+//     remarks = "Sorry";
+// }
+
+// document.write("Marks Sheet" + "<br>" + "<br>")
+// document.write("Total marks:" + " " + totalMarks + "<br>");
+// document.write("Obtained marks:" + " " + obtMarks + "<br>");
+// document.write("Grade:" + " " + grade + "<br>");
+// document.write("Remarks:" + " " + remarks);
+
+// Q7
+// var user = +prompt("Enter a number between 1 to 10");
+// var secretNumber = 8;
+
+// if(user === secretNumber){
+//     alert("Bingo! Correct answer");
+// }else if(user + 1 === secretNumber){
+//     alert("Close enough to correct answer");
+// }else(
+//     alert("Wrong number")
+// )
+
+// Q8
+// var user = +prompt("Enter a number which is divisible by 3");
+
+// if(user % 3 == 0){
+//     alert("The number is divisible by 3");
+// }
+
+// Q9
+// var user = +prompt("Enter a number");
+
+// if(user % 2 === 0){
+//     alert("The number is even");
+// }else if(user % 3 ===0 ){
+//     alert("The number is odd");
+// }
+
+// Q10
+// var T = +prompt("What your temperature");
+
+// if(T >= 40){
+//     alert("it is too hot outside");
+// }else if(T >= 30){
+//     alert("The weather today is normal");
+// }else if(T >= 20){
+//     alert("Today's weather is cool");
+// }else{
+//     alert("OMG! Today's weather is so Cool.");
+// }
+
+// Q11
+// var firstNumber = +prompt("Enter a number");
+// var secondNumber = +prompt("Enter a number");4
+// var operation = prompt("Enter operation")
+
+// if(operation === "+"){
+//     alert(firstNumber + secondNumber);
+// }else if(operation === "-"){
+//     alert(firstNumber - secondNumber);
+// }else if(operation === "*"){
+//     alert(firstNumber * secondNumber);
+// }else if(operation === "/"){
+//     alert(firstNumber / secondNumber);
+// }else if(operation === "%"){
+//     alert(firstNumber % secondNumber);
+// }else{
+//     alert("Invalid operator")
+// }
+// End
 
 
 
